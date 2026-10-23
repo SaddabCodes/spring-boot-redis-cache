@@ -1,0 +1,13 @@
+# POST User
+POST http://localhost:8080/user/saved
+Content-Type: application/json
+
+{
+  "userName": "sad",
+  "role": "ADMIN"
+}
+
+
+###
+# GET User
+GET http://localhost:8080/user/1
